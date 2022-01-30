@@ -1,0 +1,109 @@
+/* @import url("./assests/style/fonts.css"); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "yekan";
+    list-style: none;
+    outline: none;
+    border: none;
+   
+}
+:root{
+    --primaryColor: #6d28d9;
+}
+.todolist{
+}
+.todo__wrapper {
+    background-color: #e2e8f0;
+    color: #334155;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo__header{
+    margin-bottom: 2rem;
+}
+.todo__header h1 {
+    font-size: 2rem;
+}
+
+.todo__form {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom:0.3rem;
+}
+.todo__form form {
+    width: 30rem;
+    flex: 1; 
+    display: flex;
+    margin-right: 0.2rem;
+    border-radius: 0.3rem;
+}
+form input,
+form button {
+    flex: 1;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+form input{
+    color: #1e293b ;
+}
+form .todo__add {
+    color: #94a3b8;
+}
+
+.todo__select {
+    display: flex;
+    padding: 6px;
+    
+}
+.todo__select select {
+    border-radius: 0.4rem;
+    font-size: 30px;
+    padding: 5px;
+    color: #94a3b8;
+    border: 1px solid;
+}
+.todo__select select option {
+    font-size: 20px;
+}
+.todo__container {
+    
+}
+.todo__list {
+}  
+.todo__item {
+    margin-bottom: 0.3rem;
+    width: 27rem;
+    background-color: #fff;
+    justify-content:space-between;
+    display: flex;
+    
+    font-size: 30px;
+    padding: 0.5rem;
+}
+.todo__task {
+    flex: 3;
+    color: #94a3b8;
+}
+.todo__icon {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    color: #94a3b8;
+    font-size: 2rem;
+}
+.todo__icon .fa-trash-alt {
+    color: red;
+    opacity: 0.5;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
